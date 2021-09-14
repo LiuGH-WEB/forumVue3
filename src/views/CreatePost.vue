@@ -49,7 +49,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref, onMounted, computed } from 'vue'
+import { defineComponent, ref, onMounted } from 'vue'
 import { useStore } from 'vuex'
 import { GlobalDataProps, PostProps, ResponseType, ImageProps } from '../store'
 import { useRouter, useRoute } from 'vue-router'
